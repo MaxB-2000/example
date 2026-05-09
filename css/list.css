@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Pacifico&family=Rubik+Bubbles&family=Rubik+Burned&family=Rubik+Distressed&display=swap');
+body{
+    background-color: aquamarine;
+}
+p{
+    font-size: 48px;
+    font-family: "Rubik Bubbles", system-ui; font-weight: 400;
+    font-style: normal;
+}
+ul{
+    font-size: 24px;
+    color: red;
+}
+.l1 li::marker{
+    color: black
+}
+.l2 li{
+    padding-left: 16px;
+}

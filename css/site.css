@@ -1,0 +1,76 @@
+body{
+    background-color: antiquewhite;
+}
+header{
+    background-color: darkgray;
+    height: 250px;
+    
+}
+nav, aside{
+    background-color: aquamarine;
+    width: 20%;
+    float: left;
+}
+main{
+    background-color: yellow;
+    width: 60%;
+    float: left;
+}
+h2{
+    text-align: center;
+}
+article{
+    border: dashed 1px grey;
+    margin: 5px;
+    text-align: justify;
+}
+footer{
+    height: 200px;
+    background-color: lightgreen;
+    clear: both;
+}
+.bgvideo{
+    width: 100%;
+    height: 100%;
+    position: relative;
+display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bgvideo video{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 1;
+
+}
+h1{
+    z-index: 2;
+    color: blanchedalmond;
+}
+.myButton {
+    box-shadow: 0px 10px 14px -7px #3e7327;
+    background:linear-gradient(to bottom, #77b55a 5%, #72b352 100%);
+    background-color:#77b55a;
+    border-radius:42px;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Courier New;
+    font-size:24px;
+    font-weight:bold;
+    padding:9px 14px;
+    text-decoration:none;
+    text-shadow:-4px -5px 1px #5b8a3c;
+    width: 80%;
+    margin: 20px;
+    text-align: center;
+}
+.myButton:hover {
+    background:linear-gradient(to bottom, #72b352 5%, #77b55a 100%);
+    background-color:#72b352;
+     box-shadow: 5px 5px green
+}
